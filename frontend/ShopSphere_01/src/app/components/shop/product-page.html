@@ -1,0 +1,25 @@
+<!-- product-page.html -->
+<div class="page-wrapper">
+  <div class="page-container">
+    <!-- CUSTOMER EXPERIENCE -->
+    <ng-container *ngIf="role === 'CUSTOMER'">
+
+
+      <ng-container [ngSwitch]="view">
+        <ng-container *ngSwitchCase="'catalog'">
+          <app-product-catalog [products]="products" (productSelect)="handleSelectProduct($event)">
+          </app-product-catalog>
+        </ng-container>
+
+        <ng-container *ngSwitchCase="'customizer'">
+          <app-product-customizer *ngIf="selectedProduct" [product]="selectedProduct" (back)="handleBackToCatalog()"
+            (addToCart)="handleAddToCart($event)">
+          </app-product-customizer>
+        </ng-container>
+
+      </ng-container>
+    </ng-container>
+
+
+  </div>
+</div>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe916d3f-0331-4d69-b9c3-76247644d3ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/ShopSphere_01/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ShopSphere_01/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/interceptors/auth-interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/interceptors/auth-interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/ShopSphere_01/src/app/services/user.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="384zct4Kau4xY942gt7RAwTroKq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe916d3f-0331-4d69-b9c3-76247644d3ae" name="Changes" comment="" />
+      <created>1768073715681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768073715681</updated>
+    </task>
+    <servers />
+  </component>
+</project>

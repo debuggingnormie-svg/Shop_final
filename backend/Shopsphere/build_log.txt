@@ -1,0 +1,381 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.Shopsphere:Shopsphere >----------------------
+[INFO] Building Shopsphere-Intelligent order fulfilment system 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Shopsphere ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Shopsphere ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 58 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[12,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[13,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[20,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/BookResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/BookResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[25,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[30,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[35,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/BookRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/BookRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[40,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[45,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[51,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[10,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[11,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[18,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartResponseDTO.java:[6,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/CartItemRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/CartItemRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[23,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[28,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[33,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartItemResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartItemResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[12,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[13,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/OrderRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/OrderRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[20,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderResponseDTO.java:[7,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[25,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[30,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[35,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[40,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderItemResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderItemResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[12,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[13,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/ReviewRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/ReviewRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[20,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ReviewController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/ReviewResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/ReviewResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[25,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.ReviewController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[8,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[10,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[12,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[14,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[15,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[22,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.UserAuthController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserAuthResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserAuthResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserAuthRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserAuthRequestDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[27,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.UserAuthController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserResponseDTO.java:[5,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[6,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[7,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[11,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[12,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[19,12] cannot find symbol
+  symbol:   class ResponseEntity
+  location: class com.Shopsphere.Shopsphere.controller.UserController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[4,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[5,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[6,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[7,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[8,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[9,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[10,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[12,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[13,2] cannot find symbol
+  symbol: class Table
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[14,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[4,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[5,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[6,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[7,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[8,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[10,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[11,2] cannot find symbol
+  symbol: class Table
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[12,2] cannot find symbol
+  symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Cart.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Cart.java:[4,27] package jakarta.persistence does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.653 s
+[INFO] Finished at: 2026-01-10T23:37:58+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project Shopsphere: Compilation failure: Compilation failure: 
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[12,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[13,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[20,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/BookResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/BookResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[30,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[35,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/BookRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/BookRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[40,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[45,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[51,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ProductController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/BookController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[10,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[11,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[18,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartResponseDTO.java:[6,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/CartItemRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/CartItemRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[23,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[28,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[33,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.CartController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartItemResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/CartItemResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/CartController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[12,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[13,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/OrderRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/OrderRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[20,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderResponseDTO.java:[7,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[30,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[35,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[40,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.OrderController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderItemResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/OrderItemResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/OrderController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[7,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[12,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[13,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/ReviewRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/ReviewRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[20,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ReviewController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/ReviewResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/ReviewResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.ReviewController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/ReviewController.java:[8,1] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[8,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[10,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[11,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[12,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[14,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[15,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[22,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.UserAuthController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserAuthResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserAuthResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserAuthRequestDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/requestDTO/UserAuthRequestDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserAuthController.java:[27,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.UserAuthController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserResponseDTO.java:[3,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/dto/responseDTO/UserResponseDTO.java:[5,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[6,32] package org.springframework.http does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[7,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[8,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[9,47] package org.springframework.web.bind.annotation does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[11,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[12,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/controller/UserController.java:[19,12] cannot find symbol
+[ERROR]   symbol:   class ResponseEntity
+[ERROR]   location: class com.Shopsphere.Shopsphere.controller.UserController
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[4,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[5,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[6,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[7,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[8,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[9,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[10,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[13,2] cannot find symbol
+[ERROR]   symbol: class Table
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Book.java:[14,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[4,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[5,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[6,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[7,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[8,14] package lombok does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[10,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[11,2] cannot find symbol
+[ERROR]   symbol: class Table
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Category.java:[12,2] cannot find symbol
+[ERROR]   symbol: class Data
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Cart.java:[3,27] package jakarta.persistence does not exist
+[ERROR] /D:/Shop_final/Shop_final/backend/Shopsphere/src/main/java/com/Shopsphere/Shopsphere/entity/Cart.java:[4,27] package jakarta.persistence does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,186 @@
+
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Order, OrderStatus } from '../../models/order';
+import { OrderService } from '../../services/order';
+import { AuthService } from '../../services/auth';
+import { NotificationService } from '../../services/notification';
+import { User } from '../../models/user';
+import { FormsModule } from '@angular/forms';
+import { DeliveryTracking } from './delivery-tracking/delivery-tracking';
+
+/**
+ * Component to display and manage user orders, with distinct views for customers and admins.
+ */
+@Component({
+  selector: 'app-orders',
+  standalone: true,
+  imports: [CommonModule, FormsModule, DeliveryTracking],
+  templateUrl: './orders.html',
+  styleUrl: './orders.css'
+})
+export class OrdersPage implements OnInit {
+  orderSteps: OrderStatus[] = ['Confirmed', 'Packed', 'Shipped', 'Delivered'];
+
+  orders: Order[] = [];
+  selectedOrder: Order | null = null;
+  selectedAdminOrder: Order | null = null;
+
+  isAdmin = false;
+  currentUser: User | null = null;
+  isLoading = false;
+  errorMessage = '';
+
+  constructor(
+    private orderService: OrderService,
+    private authService: AuthService,
+    private notificationService: NotificationService
+  ) { }
+
+  ngOnInit(): void {
+    this.currentUser = this.authService.getCurrentUser();
+    if (!this.currentUser || !this.currentUser.id) {
+      return;
+    }
+
+    this.isAdmin = this.currentUser.role === 'ADMIN';
+    this.loadOrders();
+  }
+
+  private loadOrders(): void {
+    if (!this.currentUser || !this.currentUser.id) return;
+
+    this.isLoading = true;
+    this.errorMessage = '';
+
+    const request$ = this.isAdmin
+      ? this.orderService.getAllOrders()
+      : this.orderService.getOrdersForUser(this.currentUser.id);
+
+    request$.subscribe({
+      next: orders => {
+        this.orders = orders;
+        this.selectedOrder = null;
+        this.isLoading = false;
+      },
+      error: err => {
+        console.error('Failed to load orders', err);
+        this.errorMessage = 'Failed to load orders. Please try again.';
+        this.isLoading = false;
+      }
+    });
+  }
+
+  // CUSTOMER VIEW HELPERS
+
+  /**
+   * Selects an order to view its details. Only applicable for customer view.
+   */
+  selectOrder(order: Order): void {
+    if (this.isAdmin) return; // admin has separate UI
+    this.selectedOrder = order;
+  }
+
+  getTotalItems(order: Order): number {
+    return order.items ? order.items.reduce((sum, item) => sum + item.quantity, 0) : 0;
+  }
+
+  /**
+   * Cancels as order. Requires user confirmation.
+   */
+  cancelOrder(order: Order): void {
+    if (!confirm('Are you sure you want to cancel this order?')) {
+      return;
+    }
+
+    if (!order.id) return;
+
+    this.orderService.cancelOrder(order.id).subscribe({
+      next: (updatedOrder) => {
+        alert('Order cancelled successfully.');
+        // update local list
+        const index = this.orders.findIndex(o => o.id === updatedOrder.id);
+        if (index > -1) {
+          this.orders[index] = updatedOrder;
+        }
+        if (this.selectedOrder?.id === updatedOrder.id) {
+          this.selectedOrder = updatedOrder;
+        }
+      },
+      error: (err) => {
+        console.error('Failed to cancel order', err);
+        alert(err.message || 'Failed to cancel order');
+      }
+    });
+  }
+
+  // ADMIN VIEW ACTIONS
+
+  viewAdminOrderDetails(order: Order): void {
+    this.selectedAdminOrder = order;
+  }
+
+  closeAdminOrderDetails(): void {
+    this.selectedAdminOrder = null;
+  }
+
+  isAdminOrderCancellable(order: Order): boolean {
+    return order.status === 'Confirmed' || order.status === 'Packed';
+  }
+
+  onAdminStatusChange(order: Order, newStatus: OrderStatus): void {
+    order.status = newStatus;
+    this.saveAdminChanges(order);
+  }
+
+  onAdminLogisticsChange(order: Order): void {
+    // called when "Save" button is clicked
+    this.saveAdminChanges(order);
+  }
+
+  private saveAdminChanges(order: Order): void {
+    const oldStatus = this.orders.find(o => o.id === order.id)?.status;
+    this.orderService.updateOrder(order).subscribe({
+      next: updated => {
+        // update local list
+        const index = this.orders.findIndex(o => o.id === updated.id);
+        if (index > -1) {
+          this.orders[index] = updated;
+        }
+
+        // Notify customer if status changed
+        if (oldStatus && oldStatus !== updated.status) {
+          this.notifyCustomer(updated);
+        }
+
+        // Refresh notifications
+        this.notificationService.refresh();
+      },
+      error: err => {
+        console.error('Failed to update order', err);
+        alert('Failed to update order. Please try again.');
+      }
+    });
+  }
+
+  private notifyCustomer(order: Order): void {
+    // In a real application, this would send an email or push notification
+    console.log(`Customer notification: Order #${order.id} status changed to ${order.status}`);
+    alert(`Customer has been notified about order #${order.id} status change to ${order.status}`);
+  }
+
+  getStatusIcon(status: OrderStatus): string {
+    switch (status) {
+      case 'Confirmed': return 'schedule';
+      case 'Packed': return 'package_2';
+      case 'Shipped': return 'local_shipping';
+      case 'Delivered': return 'check_circle';
+      default: return 'assignment';
+    }
+  }
+
+  getOrderId(order: Order): string {
+    if (!order.id) return 'ORD000';
+    return `ORD${order.id.toString().padStart(3, '0')}`;
+  }
+}
